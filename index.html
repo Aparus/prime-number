@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Prime Number</title>
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/mystyles.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="gray-block" ng-controller="MyCtrl">
+        <div class="form-group">
+              <div class="call-to-action">Введите число</div>
+              <input id="number" type="number">
+              <div class="answer">{{answer}}</div>
+          </div>
+    </div>
+    
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>  
+  <script src="scripts/controllers.js"></script>
+</body>
+</html>
