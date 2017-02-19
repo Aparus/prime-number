@@ -12,7 +12,7 @@
     <div class="gray-block" ng-controller="MyCtrl">
         <div class="form-group">
               <div class="call-to-action">Введите число</div>
-              <input id="number" type="number">
+              <input ng-model="number" type="number" min=1 step=1 ng-change="numberChanged(number)">
               <div class="answer">{{answer}}</div>
           </div>
     </div>
